@@ -1,4 +1,4 @@
-# Mastodon Twitter Poster in a docker container
+# Mastodon Twitter Poster in a  container
 
 
 ![](https://github.com/eyenx/docker-mastodon-twitter-poster/workflows/build%20image/badge.svg)
