@@ -18,6 +18,11 @@ jobs:
         with:
           repository: renatolond/mastodon-twitter-poster
 
+      - name: Python Fix
+        id: fix-python
+        run: |
+          sed -i 's/python/python3/g' Dockerfile
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
 
